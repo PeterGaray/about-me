@@ -1,0 +1,102 @@
+body{ background-color: gainsboro;
+	 font-family: Helvetica;
+	 font-size: 12px;
+	 margin-top: 60px;
+
+
+ }
+
+
+ .grid-container {
+ 	display: grid;
+ 	margin: 50px;
+ 	grid-template-rows: 1fr;
+ 	grid-template-columns: 1fr 1fr;
+ 	grid-template-areas: 
+ 		"logo topnav"
+ 		
+
+ }
+
+ .logo {
+ 	width: 200px;
+ 	height: 100px;
+ 	background-image: url("../images/wordmark.png");
+ 	background-repeat: no-repeat;
+ 	margin-left: 50px;
+ 	
+ }
+
+.topnav {
+  background-color: gainsboro;
+  overflow: hidden;
+  font-family: 'spartan';
+  padding-left: 40px;
+ 
+}
+
+
+.topnav a {
+  float: left;
+  color: gray;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 12px;
+  shape-margin: 100px;
+
+
+}
+
+.topnav a:hover {
+  color: tomato;
+  
+}
+
+.topnav a.active {
+  background-color: tomato;
+  color: white;
+  
+  }
+
+
+.title {
+  color:black;
+  overflow: hidden;
+  font-size: 25px;
+  font-family: 'spartan';
+  margin-left: 130px;
+  width: 200px;
+  padding-top: 50px;
+  
+}
+
+.grid-container{
+	display: grid;
+ 	grid-template-rows: 1fr;
+ 	grid-template-columns: 1fr 1fr;
+ 	grid-template-areas: 
+ 	"p boomer"
+}
+
+
+img {
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px grey;
+
+
+}
+
+
+
+.p {
+  color:black;
+  font-size: 16px;
+  font-family: 'spartan';
+  width: 390px;
+  margin-left: 80px;
+  line-height: 120%;
+  padding-right: 50px;
+
+}
